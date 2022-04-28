@@ -1,3 +1,4 @@
+/******************** TAG *************/
 body {
     background-color: #E9D5DA;
 }
@@ -10,6 +11,8 @@ hr {
     border-width: 7px;           
 }
 
-.image1 {
-    border-radius: 50px;
+/******************** CLASS *************/
+
+.image1:hover {
+    border-radius: 25%;
 }
