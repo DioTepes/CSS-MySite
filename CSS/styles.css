@@ -4,12 +4,16 @@ body {
     margin: 0;
     font-family: 'Roboto Slab', serif;
     font-size: 1em;
+    line-height: 2;
 }
 
 h1 {
     font-family: 'Odibee Sans', cursive;
     font-size: 5rem;
     color: white;
+    margin: 25px auto 25px auto;
+    height: fit-content;
+    width: fit-content;
 }
 
 h2 {
@@ -32,6 +36,10 @@ a:hover {
     color: white;
 }
 
+p {
+    color: #d6dbda;
+}
+
 /**********CLASSES**************/
 .dio-span {
     text-decoration: none;
@@ -43,6 +51,7 @@ a:hover {
 
 .h2-career {
     margin: 0 auto auto auto;
+    color: #d6dbda
 }
 
 .middle-container {
@@ -81,7 +90,7 @@ a:hover {
 #rainbow-top {
     color: white;
     width: fit-content;
-    margin: auto;
+    margin: 0 auto;
 }
 
 #rainbow-top:hover {
