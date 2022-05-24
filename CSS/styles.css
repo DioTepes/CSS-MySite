@@ -22,13 +22,35 @@ h3 {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #8B39F7;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 /**********CLASSES**************/
 .dio-span {
     text-decoration: none;
 }
 
+.categories-container {
+    background-color: #34155C;
+}
+
+.h2-career {
+    margin: 0 auto auto auto;
+}
+
+.middle-container {
+    background-color: #431B76;
+}
+
 .top-container {
-    background-color: #210140;
+    background-color: #1E0C36;
     padding-bottom: 100px;
 }
 
@@ -36,13 +58,23 @@ h3 {
     height: 300px;
     width: 450px;
     border-radius: 25px;
-    border: solid 5px rgb(117, 28, 201);
+    border: solid 5px #34155C;
     margin-top: 70px;
 }
 
 .top-dio-img:hover {
     border: solid 5px white;
 
+}
+
+.top-10{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.who-was-dio {
+    display: inline-block;
+    margin-right: 30px;
 }
 
 /******IDs*******/
